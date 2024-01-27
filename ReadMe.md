@@ -54,20 +54,18 @@
 
 ## Phase 3: Model Development and Algorithm Selection - Hybrid Neural Network with Textual Analysis
 
-#### Note:
-
-    - The hybrid model can incorporate structured financial features aligned with the fraud data dictionary while also analyzing textual data from MD&A sections.
-    - Neural networks can automatically learn relevant features from the data, including linguistic cues mapped to terms in the fraud data dictionary.
-
 ### Implementation:
 
-1. #### Programming Language: Python
-2. #### Libraries to be Used:
-   - TensorFlow or Keras for building neural networks.
-   - Pandas for data manipulation and preprocessing.
-   - Scikit-learn for model evaluation and metrics.
-3. #### Converting text into numerical representations suitable for neural network processing using word embeddings and padding & truncating sentences:
-   - Word2Vec and GloVe are popular word embedding techniques used to represent words as dense vectors in a continuous vector space. These techniques capture semantic relationships between words by learning representations based on the context in which they appear.
-   - TF-IDF is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents. It represents words as numerical vectors, where each dimension corresponds to a unique word in the vocabulary, and the value indicates the importance of the word in the document.
-   - Padding involves adding zeros (or other placeholders) to sequences that are shorter than a specified length. This ensures that all sequences have the same length, which is necessary for feeding data into neural networks that expect fixed-size inputs.
-   - Truncating involves removing tokens from sequences that exceed a specified length. This is necessary to ensure that sequences are not too long, as excessively long sequences can lead to memory issues and computational inefficiency.
+1.  #### Programming Language: Python
+2.  #### Libraries to be Used:
+    - TensorFlow or Keras for building neural networks.
+    - Pandas for data manipulation and preprocessing.
+    - Scikit-learn for model evaluation and metrics.
+3.  #### Converting text into numerical representations suitable for neural network processing using word embeddings and padding & truncating sentences:
+    - Word2Vec and GloVe are popular word embedding techniques used to represent words as dense vectors in a continuous vector space. These techniques capture semantic relationships between words by learning representations based on the context in which they appear.
+    - TF-IDF is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents. It represents words as numerical vectors, where each dimension corresponds to a unique word in the vocabulary, and the value indicates the importance of the word in the document.
+    - Padding involves adding zeros (or other placeholders) to sequences that are shorter than a specified length. This ensures that all sequences have the same length, which is necessary for feeding data into neural networks that expect fixed-size inputs.
+    - Truncating involves removing tokens from sequences that exceed a specified length. This is necessary to ensure that sequences are not too long, as excessively long sequences can lead to memory issues and computational inefficiency.
+    #### Note:
+         - The hybrid model can incorporate structured financial features aligned with the fraud data dictionary while also analyzing textual data from MD&A sections.
+         - Neural networks can automatically learn relevant features from the data, including linguistic cues mapped to terms in the fraud data dictionary.
