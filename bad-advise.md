@@ -3,33 +3,33 @@
 ### Phase 2:
 
 1. Data Collection:
-   > bs4 (maybe)
+   > `bs4` (maybe)
 2. Tokenization:
-   > NLTK
+   > `NLTK`
 3. NER:
-   > NLTK
+   > `NLTK`
 4. POS:
-   > NLTK
+   > `NLTK`
 5. Match and format the extracted data's fields with the data dictionary. Keep relevant fields only.
 6. Data cleansing: deduplication
-   > drop_duplicates()
+   > `drop_duplicates()`
 7. CFS:
-   > SelectKBest in SciKit-Learn
+   > `SelectKBest` in `SciKit-Learn`
 8. Firefly Algo:
-   > PySwarm
+   > `PySwarm`
 9. Data manipulation & pre-processing:
-   > Pandas
+   > `Pandas`
 10. Neural Networks building:
-    > TensorFlow or Keras
+    > `TensorFlow` or `Keras`
 11. Model evaluation & metrics:
-    > SciKit-learn
+    > `SciKit-learn`
 12. Text to numerical:
-    > Word2Vec in gensim library
+    > `Word2Vec` in `gensim` library
 13. TF-IDF:
-    > TfidfVectorizer in SciKit-learn
+    > `TfidfVectorizer` in `SciKit-learn`
 14. Padding/Truncating:
-    > pad_sequences in Keras (will find something from tensorFlow later)
+    > `pad_sequences` in `Keras` (will find something from `tensorFlow` later)
 15. Model building:
-    > tensorFlow or Keras
+    > `tensorFlow` or `Keras`
 16. Training and evaluation of model:
-    > `fit` and `evaluate` in Keras (will find something from tensorFlow later)
+    > `fit` and `evaluate` in `Keras` (will find something from tensorFlow later)
