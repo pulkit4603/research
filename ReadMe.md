@@ -67,5 +67,5 @@
     - Padding involves adding zeros (or other placeholders) to sequences that are shorter than a specified length. This ensures that all sequences have the same length, which is necessary for feeding data into neural networks that expect fixed-size inputs.
     - Truncating involves removing tokens from sequences that exceed a specified length. This is necessary to ensure that sequences are not too long, as excessively long sequences can lead to memory issues and computational inefficiency.
     #### Note:
-         - The hybrid model can incorporate structured financial features aligned with the fraud data dictionary while also analyzing textual data from MD&A sections.
-         - Neural networks can automatically learn relevant features from the data, including linguistic cues mapped to terms in the fraud data dictionary.
+    The hybrid model can incorporate structured financial features aligned with the fraud data dictionary while also analyzing textual data from MD&A sections.
+    Neural networks can automatically learn relevant features from the data, including linguistic cues mapped to terms in the fraud data dictionary.
